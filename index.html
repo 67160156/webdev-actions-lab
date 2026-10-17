@@ -7,12 +7,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="card">
+  <header class="hero">
+    <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">🌙 Dark mode</button>
     <h1>Welcome to My GitHub Pages Site</h1>
-    <p>ชื่อ: YOUR NAME | รหัสนิสิต: YOUR ID</p>
+    <p>ชื่อ: Tamonwan Srisawat | รหัสนิสิต: 67160156</p>
+    <p class="welcome">สวัสดีค่ะ ยินดีต้อนรับสู่เว็บไซต์แลป Web Development ที่ Deploy อัตโนมัติด้วย GitHub Actions</p>
     <p id="status">Ready to deploy</p>
     <button id="helloBtn">Say Hello</button>
+  </header>
+
+  <main>
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>นิสิตมหาวิทยาลัยบูรพา สนใจด้าน Data Science และการพัฒนาเว็บไซต์
+         ชอบนำข้อมูลมาวิเคราะห์และสร้างเป็นระบบที่ใช้งานได้จริง</p>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML / CSS / JavaScript</li>
+        <li>PHP &amp; MySQL</li>
+        <li>Python &amp; Jupyter</li>
+        <li>SQL &amp; Data Warehouse</li>
+        <li>Power BI / KNIME</li>
+        <li>Git &amp; GitHub Actions</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:67160156@go.buu.ac.th">67160156@go.buu.ac.th</a></p>
+      <p>GitHub: <a href="https://github.com/67160156">github.com/67160156</a></p>
+    </section>
   </main>
+
+  <footer>© 2026 Tamonwan Srisawat · Deployed with GitHub Pages</footer>
   <script src="script.js"></script>
 </body>
 </html>
